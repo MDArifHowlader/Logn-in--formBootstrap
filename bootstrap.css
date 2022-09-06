@@ -1,0 +1,27 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.d-flex {
+    display: flex!important;
+    flex-direction: column;
+    align-content: space-around;
+}
+@media (min-width: 1200px){
+    .offset-xl-1 {
+    margin-left: -2.666667%!important;
+}
+
+}
+@media (max-width: 730px){
+    .d-flex {
+        display: flex!important;
+        flex-direction: column!important;
+        flex-wrap: nowrap!important;
+    }
+
+}
+
